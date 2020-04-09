@@ -23,3 +23,7 @@ ClassPathXmlApplicationContext is used to get the ApplicationContext object by p
 
 The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type
 context:annotation-config is used to enable annotation based configuration support.
+
+
+
+Spring @Repository annotation is used to indicate that the class provides the mechanism for storage, retrieval, search, update and delete operation on objects.
