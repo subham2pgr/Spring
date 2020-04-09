@@ -20,3 +20,6 @@ AnnotationConfigApplicationContext constructor takes Class as argument that will
 getBean(Class) method returns the Component object
 
 ClassPathXmlApplicationContext is used to get the ApplicationContext object by providing the configuration files location
+
+The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type
+context:annotation-config is used to enable annotation based configuration support.
