@@ -25,12 +25,20 @@ The @Qualifier annotation is used to resolve the autowiring conflict, when there
 context:annotation-config is used to enable annotation based configuration support.
 
 
+https://javarevisited.blogspot.com/2017/10/differences-between-requestparam-and-pathvariable-annotations-spring-mvc.html
+
+
 
 Spring @Repository annotation is used to indicate that the class provides the mechanism for storage, retrieval, search, update and delete operation on objects.
 https://www.journaldev.com/2433/spring-mvc-tutorial
 
 https://www.javatpoint.com/spring-mvc-tutorial
 @Controller annotation is used to indicate that it’s a web controller class.
+This annotation is used to make a class as a web controller, which can handle client requests and send a response back to the client.
+
+Read more: https://www.java67.com/2019/04/top-10-spring-mvc-and-rest-annotations-examples-java.html#ixzz6J8XQPjLJ
 
 
 @RequestMapping is used with classes and methods to redirect the client request to specific handler method. 
+https://javarevisited.blogspot.com/2017/10/differences-between-requestparam-and-pathvariable-annotations-spring-mvc.html
+The @RequestParam is used to extract query parameters while @PathVariable is used to extract data right from the URI. ... Even though both are used to extract data from URL, @RequestParam is used to retrieve query parameters, anything after ? in the URL, while @PathVariable is used to retrieve values from URI itself
