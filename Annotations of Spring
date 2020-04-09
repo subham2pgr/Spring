@@ -45,3 +45,4 @@ The @RequestParam is used to extract query parameters while @PathVariable is use
 
 https://www.baeldung.com/spring-request-response-body
 https://www.journaldev.com/3531/spring-mvc-hibernate-mysql-integration-crud-example-tutorial
+https://www.baeldung.com/spring-controller-vs-restcontroller
