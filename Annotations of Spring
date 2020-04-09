@@ -18,3 +18,5 @@ enables you to inject the object dependency implicitly.
 AnnotationConfigApplicationContext constructor takes Class as argument that will be used to get the bean implementation to inject in component classes.
 
 getBean(Class) method returns the Component object
+
+ClassPathXmlApplicationContext is used to get the ApplicationContext object by providing the configuration files location
