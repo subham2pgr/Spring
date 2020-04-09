@@ -27,3 +27,10 @@ context:annotation-config is used to enable annotation based configuration suppo
 
 
 Spring @Repository annotation is used to indicate that the class provides the mechanism for storage, retrieval, search, update and delete operation on objects.
+https://www.journaldev.com/2433/spring-mvc-tutorial
+
+https://www.javatpoint.com/spring-mvc-tutorial
+@Controller annotation is used to indicate that it’s a web controller class.
+
+
+@RequestMapping is used with classes and methods to redirect the client request to specific handler method. 
