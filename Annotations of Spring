@@ -50,3 +50,9 @@ https://www.baeldung.com/spring-controller-vs-restcontroller
 https://www.viralpatel.net/spring-requestheader-example/
 
 We mark a Service layer with @Transactional when a method in a Service class is having multiple database calls and we want either all calls should happen or no one should happen or we can say if any call fail then whole transaction should rollback.
+If you don't know, Spring Boot aims to simplify Java development with the Spring framework. Currently, Spring does a lot for you, but in return, it also asks a lot from you in terms of configuration and dependency management, Spring Boot aims to solve that problem.
+
+The Spring Boto auto-configuration feature tries to automatically configure your Spring application based upon the JAR dependency you have added in the classpath.
+
+
+Read more: https://www.java67.com/2018/05/difference-between-springbootapplication-vs-EnableAutoConfiguration-annotations-Spring-Boot.html#ixzz6J9LN6oqH
