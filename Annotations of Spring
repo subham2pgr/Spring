@@ -42,3 +42,6 @@ Read more: https://www.java67.com/2019/04/top-10-spring-mvc-and-rest-annotations
 @RequestMapping is used with classes and methods to redirect the client request to specific handler method. 
 https://javarevisited.blogspot.com/2017/10/differences-between-requestparam-and-pathvariable-annotations-spring-mvc.html
 The @RequestParam is used to extract query parameters while @PathVariable is used to extract data right from the URI. ... Even though both are used to extract data from URL, @RequestParam is used to retrieve query parameters, anything after ? in the URL, while @PathVariable is used to retrieve values from URI itself
+
+https://www.baeldung.com/spring-request-response-body
+https://www.journaldev.com/3531/spring-mvc-hibernate-mysql-integration-crud-example-tutorial
