@@ -7,3 +7,14 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
 @Autowired annotation is used to let Spring know that autowiring is required. This can be applied to field, constructor and methods. This annotation allows us to implement constructor-based, field-based or method-based dependency injection in our components.
 enables you to inject the object dependency implicitly.
+
+ Spring Configuration annotation indicates that the class has @Bean definition methods. So Spring container can process the class and generate Spring Beans to be used in the application.
+
+@ComponentScan annotation is used with @Configuration annotation to specify the packages to look for Component classes.
+@Bean annotation is used to let Spring framework know that this method should be used to get the bean implementation to inject in Component classes.
+
+
+
+AnnotationConfigApplicationContext constructor takes Class as argument that will be used to get the bean implementation to inject in component classes.
+
+getBean(Class) method returns the Component object
