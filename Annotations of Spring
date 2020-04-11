@@ -60,3 +60,5 @@ The Spring Boto auto-configuration feature tries to automatically configure your
 
 Read more: https://www.java67.com/2018/05/difference-between-springbootapplication-vs-EnableAutoConfiguration-annotations-Spring-Boot.html#ixzz6J9LN6oqH
 https://www.java67.com/2018/05/difference-between-springbootapplication-vs-EnableAutoConfiguration-annotations-Spring-Boot.html
+
+https://medium.com/javarevisited/building-a-rest-service-with-spring-boot-and-mongodb-3aa5cd2dce73
